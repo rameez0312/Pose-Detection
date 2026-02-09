@@ -3,4 +3,4 @@ from ultralytics import YOLO
 
 model = YOLO('yolov8n-pose.pt')  # load a pretrained model
 
-model.train(data='config.yaml', epochs=1, imgsz=640)
+model.train(data='config.yaml', epochs=100, imgsz=640)

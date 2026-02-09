@@ -2,7 +2,7 @@ from ultralytics import YOLO
 import cv2
 
 
-model_path = '/media/veracrypt2/computer_vision/47_pose_detection_yolov8/code/runs/pose/train9/weights/last.pt'
+model_path = '/Users/admin/Desktop/Projects/code/runs/pose/train9/weights/last.pt'
 
 image_path = './samples/wolf.jpg'
 img = cv2.imread(image_path)
